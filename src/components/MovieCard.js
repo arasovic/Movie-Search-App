@@ -7,7 +7,7 @@ import {Card, Icon} from "semantic-ui-react";
 
 const MovieCard = ({movie}) => {
     return (
-        <Link href={`/movie/${movie.imdbID}`}>
+        <Link href={`/movie/${movie.imdbID}`} passHref>
             <Card centered>
                 <Image src={movie.Poster === 'N/A' ? '/no-poster.jpg' : movie.Poster} width={300} height={407}
                        alt={'poster'}

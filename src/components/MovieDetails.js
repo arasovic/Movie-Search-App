@@ -13,7 +13,8 @@ const MovieDetails = ({details}) => {
                         <div className='detail-image'>
                             <Header>{details?.Title}</Header>
                             <Image src={details?.Poster === 'N/A' ? '/no-poster.jpg' : details?.Poster} width={514}
-                                   height={800} />
+                                   alt='Poster'
+                                   height={800}/>
                         </div>
                     </Grid.Column>
                     <Grid.Column width={11}><MovieDetailsTable details={details}/></Grid.Column>

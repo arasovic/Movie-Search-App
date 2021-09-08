@@ -22,10 +22,11 @@ const Navbar = ({visibility}) => {
     return (
         <Menu fixed='top' inverted stackable>
             <Container>
-                <Link href={'/'}><Menu.Item header>
-                    <NextImg src='/IMDb-icon.png' width={35} height={35}/>
-                    <span style={{marginLeft: '1.1em'}}> Movie Searcher </span>
-                </Menu.Item></Link>
+                <Link href={'/'} passHref>
+                    <Menu.Item header>
+                        <NextImg src='/IMDb-icon.png' width={35} height={35}/>
+                        <span style={{marginLeft: '1.1em'}}> Movie Searcher </span>
+                    </Menu.Item></Link>
                 <Menu.Item position='right'>
                     {visibility ?
                         <>
