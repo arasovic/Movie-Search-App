@@ -1,0 +1,13 @@
+.main-container {
+    margin-top: 5em !important;
+}
+
+.main-segment {
+    margin: 8.6em 3em 0 3em !important;
+
+    bottom:4em;
+}
+
+.movie-title{
+    text-transform: capitalize;
+}
