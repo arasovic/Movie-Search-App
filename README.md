@@ -12,7 +12,7 @@
 
 - `Redux` - [A Predictable State Container for JS Apps](https://redux.js.org/)
 
-###For Tests
+### For Tests
 - `Enzyme` - [JavaScript Testing Utility for React](https://enzymejs.github.io/enzyme/)
 - `Jest` - [JavaScript Testing Framework](https://jestjs.io/)
 
