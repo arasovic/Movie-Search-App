@@ -21,13 +21,13 @@
 - **Paginate movie list**
 - **View movie detail**
 
-##How to start app
+## How to start app
 
 ````shell
 yarn install && yarn dev
 ````
 
-##How to start tests
+## How to start tests
 ````shell
 yarn install && yarn test
 ````
