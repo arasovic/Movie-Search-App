@@ -1,20 +1,29 @@
 export const getWindowTop = () => {
-    window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
-    });
-}
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth',
+  });
+};
 
 export const valueRenderer = (value) => {
-    if (Array.isArray(value)) {
-        return <>{value.map((v,i) => {
-            return <span key={i}>
-                <div>Source: {v.Source}</div>
-                <div>Value: {v.Value}</div>
-            </span>
-        })}</>
-    } else {
-        return <>{value}</>
-    }
-}
+  if (Array.isArray(value)) {
+    return (
+      <>
+        {value.map((v, i) => (
+          <span key={i}>
+            <div>
+              Source:
+              {v.Source}
+            </div>
+            <div>
+              Value:
+              {v.Value}
+            </div>
+          </span>
+        ))}
+      </>
+    );
+  }
+  return <>{value}</>;
+};

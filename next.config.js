@@ -3,8 +3,7 @@ module.exports = {
   images: {
     domains: ['m.media-amazon.com', 'ia.media-imdb.com'],
   },
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-
-    return config;
-  },
+  webpack: (config, {
+    buildId, dev, isServer, defaultLoaders, webpack,
+  }) => config,
 };
