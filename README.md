@@ -4,7 +4,7 @@
 
 ## Used Techs
 
-- `React` - [A JavaScript library for building user interfacesk](https://reactjs.org/)
+- `React` - [A JavaScript library for building user interfaces](https://reactjs.org/)
 
 - `Semantic UI` - [React UI Framework](https://react.semantic-ui.com/)
 
