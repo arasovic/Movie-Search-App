@@ -1,5 +1,5 @@
-import searchReducer from '../../../reducers/searchReducer';
-import { FETCH_MOVIES } from '../../../actions/types';
+import searchReducer from '../../reducers/searchReducer';
+import { FETCH_MOVIES } from '../../actions/types';
 
 describe('is search reducers works', () => {
   it('handles actions of type FETCH_MOVIES ', () => {
