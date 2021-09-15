@@ -8,7 +8,7 @@ const MoviePagination = () => {
   const dispatch = useDispatch();
 
   // eslint-disable-next-line no-shadow
-  const handlePaginationChange = ({ activePage }) => {
+  const handlePaginationChange = (e, { activePage }) => {
     dispatch(onChangeSearch(searchString, activePage));
   };
 
